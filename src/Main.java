@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        new Kmeans(new ArrayList<Point>() {{
+        new Kmeans(new ArrayList<>() {{
             add(new Point(0, 0));
             add(new Point(0, 1));
             add(new Point(0, 2));

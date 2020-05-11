@@ -8,10 +8,6 @@ public class Point {
         this.y = y;
     }
 
-    public void removeFromCluster() {
-        cluster.removePoint(this);
-    }
-
     @Override
     public String toString() {
         return "(" + x + ", " + y + ")";
